@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int grade;
+   cout<<"Please insert the number you got in CSC101: " << endl;
+   cin>>grade;
+   if(grade>=90 && grade<=100)
+   {
+       cout<<"You got an A! Congratulations!";
+   }
+   else if(grade>=85)
+   {
+       cout<<"You got an A-!";
+   }
+   else if(grade>=80)
+   {
+       cout<<"You got B+";
+   }
+   else if(grade>=75)
+   {
+       cout<<"You got B-";
+   }
+   else if(grade>=70)
+   {
+       cout<<"You got C+";
+   }
+   else if(grade>=50 && grade<=70)
+   {
+       cout<<"You barely passed with a D";
+   }
+   else if(grade>=0 && grade<50)
+   {
+       cout<<"You failed. Please retake the course.";
+   }
+   else
+   {
+       cout<<"Invalid input. Please try again.";
+   }
+}
+

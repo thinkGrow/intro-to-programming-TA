@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+
+
+int printIt(int x, int y)
+{
+    int sum;
+    sum = x+y;
+    cout << " The number I want to print is: " << sum << endl;
+    return int;
+}
+
+
+int main()
+{
+    int x =5;
+    int y =6;
+    int a = printIt(x,y); // function call
+    cout << "value of a is: " << a << endl;
+    int b = a-1;
+    cout << "value of b is: " << b << endl;
+    cout << b ;
+    return 0;
+} 
+
+int main
+
+
+
+

@@ -1,0 +1,57 @@
+//This code is done by Safwan Sadi
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+   int age, a, b, c;
+
+   cout << "Enter age of a: ";
+   cin >> a;
+   cout << "Enter age of b: ";
+   cin >> b;
+   cout << "Enter age of c: ";
+   cin >> c;
+   cout << endl;
+
+   if((a > b)&&(a > c))
+   {
+      if(b > c)
+        {
+     cout << "Oldest is a and youngest is c";
+        }
+        else
+        {
+     cout << "Oldest is a and youngest is b";
+        }
+   }
+
+
+   else if((b > a) && (b > c))
+   {
+       if(a > c)
+        {
+     cout << "Oldest is b and youngest is c";
+        }
+        else
+        {
+     cout << "Oldest is b and youngest is a";
+        }
+   }
+
+   else
+   {
+       if(b > a)
+        {
+     cout << "Oldest is c and youngest is a";
+        }
+        else
+        {
+      cout << "Oldest is c and youngest is b";
+        }
+   }
+
+   return 0;
+}

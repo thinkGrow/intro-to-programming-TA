@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+/*5! = 5*4*3*2*1;
+
+3! = 3*2*1;
+
+n! = n**(n-1)(n-2)*(n-3)*(n-4)*/
+
+int theFactorialIs(int x)
+{
+    
+    if(x==1){ return 1;}
+    
+    else return x*factorialFinder(x-1);
+    
+}
+
+
+int main()
+
+{
+    theFactorialFinder(4);
+    
+    
+}

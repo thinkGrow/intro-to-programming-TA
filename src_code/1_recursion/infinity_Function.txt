@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+
+void ektaFunction()
+{
+    cout << "26th March is Independence Day " ;
+    
+    ektaFunction();
+    
+}
+
+
+
+int main()
+{
+    ektaFunction();
+    
+}
+

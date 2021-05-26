@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int age;
+    cin>> age;
+    
+    switch(age)
+    {
+        case 1 ... 17: cout << "You are underaged and not allowed to watch this movie";
+        break;
+        case 18 ... 100  : cout << "Enjoy the movie!";
+        break;
+        default : cout << "Invalid input. Please try again!";
+        break;
+       
+    
+        
+        
+    }
+    
+}
+

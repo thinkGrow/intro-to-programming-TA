@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+
+void intputAgePrintAge()
+{   
+    int age;
+    string name;
+    cout<<"What is your name?" <<endl;
+    cin>>name;
+    cout<<"What is your age?"<<endl;
+    cin>>age;
+    cout<<"Hello, " << name << ", your age is: " << age << endl;
+}
+
+int main()
+{   
+    for(int i = 0 /*start*/ ; i < 10 /*this tells us when to stop*/; i++ //increment by 1 )
+    {
+        intputAgePrintAge();
+    }
+    
+    
+    
+    /*cout<<"What is your name?" <<endl;
+    cin>>name;
+    cout<<"What is your age?"<<endl;
+    cin>>age;
+    cout<<"Hello, " << name << ", your age is: " << age << endl;
+    
+    cout<<"What is your name?" <<endl;
+    cin>>name;
+    cout<<"What is your age?"<<endl;
+    cin>>age;
+    cout<<"Hello, " << name << ", your age is: " << age << endl;*/
+    
+}
+
